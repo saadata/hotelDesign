@@ -666,3 +666,17 @@ font-size: 12px;
         padding-top: 15px;
    }
 }
+@media screen and (max-width: 667px) {
+    .blog-post {
+        padding: .5rem;
+        flex-direction: column;
+    }
+    .blog-post__img {
+        min-width: 100%;
+        max-width: 100%;
+        
+    }
+    .blog-post__info {
+        padding-top: 15px;
+   }
+}
