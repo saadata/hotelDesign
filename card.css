@@ -655,12 +655,10 @@ font-size: 12px;
     .blog-post {
         padding: 2.5rem;
         flex-direction: column;
-
     }
     .blog-post__img {
         min-width: 100%;
-        max-width: 100%;
-        
+        max-width: 100%;        
     }
     .blog-post__info {
         padding-top: 15px;
@@ -673,10 +671,10 @@ font-size: 12px;
     }
     .blog-post__img {
         min-width: 100%;
-        max-width: 100%;
-        
+        max-width: 100%;        
     }
     .blog-post__info {
         padding-top: 15px;
    }
+   
 }
