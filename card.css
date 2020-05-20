@@ -613,6 +613,14 @@ font-size: 12px;
         max-width: 100%;
         min-width: 100%;
     }
+    .row-1 .text  h6{        
+        font-size: 8px; 
+        font-weight: none;       
+        }
+    .row-1 .text  h3{        
+        font-size: 15px;
+        font-weight: 800;
+        }
     .photo {
         width: 100%;        
     }
