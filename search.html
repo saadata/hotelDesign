@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            }
+    </style>
+    <body>
+        <form action="https://google.com/search" target="_blank" type="GET">
+
+            <label>Search CSS-Tricks on Google: <input type="search" name="q"></label>
+            <input type="submit" value="Go">
+          
+          </form>
+    </body>
+    <script>
+        var form = document.querySelector("form");
+
+        form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var search = form.querySelector("input[type=search]");
+        search.value = "site:css-tricks.com " + search.value;
+        form.submit();
+        });
+    </script>
+</html>
